@@ -9,6 +9,7 @@ const initialState = {
 };
 
 const authStart = (state, action) => {
+    console.log("dfgg");
     return updateObject(state, {error: null, loading: true});
 }
 
